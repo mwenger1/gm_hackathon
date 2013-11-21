@@ -4,7 +4,9 @@
 -->			</div>
 
 			<div data-role="content">
-			<h2>Clinical Trials Need You</h2>
+				<h1>Elevation<h1>
+				
+				<h2>&#916; 9,043 ft</h2>
 			<p>Clinical trials are the final phase in the lengthy drug development process. They are a critical and required step to speed cures. But a persistent shortage of volunteers for clinical trials slows scientific progress. Patients pay the ultimate price for underenrollment in clinical research, facing few new treatment options.</p>					
 			<div class="ftfReasons">	
 				<div data-role="collapsible"  data-iconpos="right" data-inset="false" data-theme="b" data-content-theme="d">

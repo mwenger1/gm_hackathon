@@ -16,7 +16,7 @@
 	    	
 	    </div>
 	    </a>
-    	<a class="wrappingAnchor" data-transition="slide" href="elevation.php">
+    	<a class="wrappingAnchor" data-transition="slide" href="elevation.php" rel=external>
 		    <div class="ui-block-b">
 			    	<div class="ui-bar ui-bar-e eventsTile" ><div class="tileIcon events"></div>Elevation
 			    <p class="tileNumber">9,043 ft</p></div>

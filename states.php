@@ -10,7 +10,7 @@
 					<option value='alltime'>All Time</option>
 				</select>
 				<div style="text-align:center;">
-					<p class="" style="font-size:2em; line-height:1.5em;">Your car has been to <br><span style="font-weight:bold; line-height:1.2em;" class="thisyear">13 States!</span>
+					<p class="" style="font-size:2em; line-height:1.5em; margin-top: 0;">Your car has been to <br><span style="font-weight:bold; line-height:1.2em;" class="thisyear">13 States!</span>
 <span style="font-weight:bold; line-height:1.2em; display:none;" class="alltime">32 States!</span>
 					</p>
 
