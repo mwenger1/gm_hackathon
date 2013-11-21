@@ -111,6 +111,7 @@ var fastButtons = {
 fastButtons.replace();
 		</script>
 		<link rel="stylesheet" href="css/mobilecustom.css" type="text/css"/>
+		<link rel="stylesheet" href="css/elevation.css" type="text/css"/>
 	</head>
 	<body>
 		<div data-role="page" class="pages">
