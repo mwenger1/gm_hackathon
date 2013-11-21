@@ -120,7 +120,7 @@ fastButtons.replace();
 						<li><a href="blog.php" class="contentLink">States</a></li>
 						<li><a href="blog.php" class="contentLink">Elevation</a></li>
 						<li><a href="events.php" class="contentLink">Miles</a></li>
-						<li><a href="teamfox.php" class="contentLink">Hot Spots</a></li>
+						<li><a href="role_impact.php" class="contentLink">Hot Spots</a></li>
 					</ul>
 			</div>
 			<div data-role="header" class="header" data-theme="b" style="height:100%; text-align:center; background:#B92932; padding:.1em 0;">

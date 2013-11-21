@@ -18,7 +18,7 @@
 					<img class="thisyear" style="width:90%;" src="images/map_states.png" />
 					<img class="alltime" style="width:90%; display:none;" src="images/map_states2.png" />
 
-				<p>Do you think you are a road warrior?<br>See how you compare to your friends.</p>
+				<p ><span style="font-size:1.2em; line-height:1.2em;">Think you are a road warrior?</span><br>See how you compare to your friends.</p>
 
 
 					<img class="thisyear" style="width:80%;" src="images/leaderboard2.png" />
