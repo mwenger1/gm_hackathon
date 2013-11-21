@@ -14,8 +14,15 @@
 <span style="font-weight:bold; line-height:1.2em; display:none;" class="alltime">32 States!</span>
 					</p>
 
+
 					<img class="thisyear" style="width:90%;" src="images/map_states.png" />
 					<img class="alltime" style="width:90%; display:none;" src="images/map_states2.png" />
+
+				<p>Do you think you are a road warrior?<br>See how you compare to your friends.</p>
+
+
+					<img class="thisyear" style="width:80%;" src="images/leaderboard2.png" />
+					<img class="alltime" style="width:80%; display:none;" src="images/leaderboard.png" />
 
 				</div>
 
