@@ -7,7 +7,7 @@
 				
 
 	<div class="ui-grid-b homepageTile">
-	    <a class="wrappingAnchor" data-transition="slide" href="blog.php">
+	    <a class="wrappingAnchor" data-transition="slide" href="states.php">
 	    <div class="ui-block-a">
 	    	<div class="ui-bar ui-bar-e newsTile" >
 	    		<div class="tileIcon news"></div>States
@@ -16,7 +16,7 @@
 	    	
 	    </div>
 	    </a>
-    	<a class="wrappingAnchor" data-transition="slide" href="events.php">
+    	<a class="wrappingAnchor" data-transition="slide" href="elevation.php">
 		    <div class="ui-block-b">
 			    	<div class="ui-bar ui-bar-e eventsTile" ><div class="tileIcon events"></div>Elevation
 			    <p class="tileNumber">9,043 ft</p></div>
@@ -25,12 +25,12 @@
 		</a>
     </div><!-- /grid-b -->
 	<div class="ui-grid-b homepageTile">
-	   	<a class="wrappingAnchor" data-transition="slide" href="foxtrialfinder.php">
+	   	<a class="wrappingAnchor" data-transition="slide" href="miles.php">
 		   	<div class="ui-block-a"><div class="ui-bar ui-bar-e foxtrialfinderTile" ><div class="tileIcon foxtrialfinder"></div>Miles<p class="tileNumber">13,452</p></div>
 			
 		   </div>
 	   	</a>
-	   	<a class="wrappingAnchor" data-transition="slide" href="role_impact.php">
+	   	<a class="wrappingAnchor" data-transition="slide" href="hotspots.php">
 		   	<div class="ui-block-b"><div class="ui-bar ui-bar-e roleTile" ><div class="tileIcon role"></div>Hot Spots<p class="tileNumber">18</p></div>
 			
 		   </div>

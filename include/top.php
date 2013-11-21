@@ -11,7 +11,8 @@
 		<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png" />
 		<link rel="apple-touch-startup-image" href="apple-touch-startup-image-320x460.png" />
 		<link rel="apple-touch-startup-image" sizes="768x1004" href="apple-touch-startup-image-768x1004.png" />
-		<meta name="title" content="The Michael J. Fox Foundation for Parkinson's Research">
+		<meta name="title" content="MapMyCar">
+		<title>MapMyCar</title>
 
 		<script src="js/modernizr.js"></script>
 		<meta name="description" content="">
@@ -117,10 +118,10 @@ fastButtons.replace();
 				<h3></h3>
 					<ul>
 						<li><a href="index.php" class="contentLink">Dashboard</a></li>
-						<li><a href="blog.php" class="contentLink">States</a></li>
-						<li><a href="blog.php" class="contentLink">Elevation</a></li>
-						<li><a href="events.php" class="contentLink">Miles</a></li>
-						<li><a href="role_impact.php" class="contentLink">Hot Spots</a></li>
+						<li><a href="states.php" class="contentLink">States</a></li>
+						<li><a href="elevation.php" class="contentLink">Elevation</a></li>
+						<li><a href="miles.php" class="contentLink">Miles</a></li>
+						<li><a href="hotspots.php" class="contentLink">Hot Spots</a></li>
 					</ul>
 			</div>
 			<div data-role="header" class="header" data-theme="b" style="height:100%; text-align:center; background:#B92932; padding:.1em 0;">
