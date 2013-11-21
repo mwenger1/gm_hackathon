@@ -1,3 +1,11 @@
+# Used RestClient - https://github.com/rest-client/rest-client
+
+# gem install rest-client
+# go into restclient console
+# $ restclient
+
+from console
+# 
 require 'json'
 require 'base64'
 
