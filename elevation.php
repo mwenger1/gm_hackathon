@@ -1,182 +1,177 @@
 <?php include('include/top.php'); ?>
 
+  </div>
 
-	
-			</div>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+<style>
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+</style>
 
 			<div data-role="content">
 
-				<h2>Upcoming Events</h2>
+				<select id="mapTimeline">
+					<option value='year'>This Year</option>
+					<option value='alltime'>All Time</option>
+				</select>
+				<div style="text-align:center;">
+				  
+				<h1>Elevation<h1>
 				
-				<!-- @TODO this section -->
-				 <div data-role="fieldcontain">
-                <fieldset data-role="controlgroup">
-                    <legend>Filter by:</legend>                
-                    <select id="stateCalendarDropdown">
-						<option>State</option>
-						<option value="AL">Alabama</option>
-						<option value="AK">Alaska</option>
-						<option value="AZ">Arizona</option>
-						<option value="AR">Arkansas</option>
-						<option value="CA">California</option>
-						<option value="CO">Colorado</option>
-						<option value="CT">Connecticut</option>
-						<option value="DE">Delaware</option>
-						<option value="DC">District of Columbia</option>
-						<option value="FL">Florida</option>
-						<option value="GA">Georgia</option>
-						<option value="HI">Hawaii</option>
-						<option value="ID">Idaho</option>
-						<option value="IL">Illinois</option>
-						<option value="IN">Indiana</option>
-						<option value="IA">Iowa</option>
-						<option value="KS">Kansas</option>
-						<option value="KY">Kentucky</option>
-						<option value="LA">Louisiana</option>
-						<option value="ME">Maine</option>
-						<option value="MD">Maryland</option>
-						<option value="MA">Massachusetts</option>
-						<option value="MI">Michigan</option>
-						<option value="MN">Minnesota</option>
-						<option value="MS">Mississippi</option>
-						<option value="MO">Missouri</option>
-						<option value="MT">Montana</option>
-						<option value="NE">Nebraska</option>
-						<option value="NV">Nevada</option>
-						<option value="NH">New Hampshire</option>
-						<option value="NJ">New Jersey</option>
-						<option value="NM">New Mexico</option>
-						<option value="NY">New York</option>
-						<option value="NC">North Carolina</option>
-						<option value="ND">North Dakota</option>
-						<option value="OH">Ohio</option>
-						<option value="OK">Oklahoma</option>
-						<option value="OR">Oregon</option>
-						<option value="PA">Pennsylvania</option>
-						<option value="RI">Rhode Island</option>
-						<option value="SC">South Carolina</option>
-						<option value="SD">South Dakota</option>
-						<option value="TN">Tennessee</option>
-						<option value="TX">Texas</option>
-						<option value="UT">Utah</option>
-						<option value="VT">Vermont</option>
-						<option value="VA">Virginia</option>
-						<option value="WA">Washington</option>
-						<option value="WV">West Virginia</option>
-						<option value="WI">Wisconsin</option>
-						<option value="WY">Wyoming</option>
-					</select>
-					<select id="countryCalendarDropdown" >
-						<option>Country</option>
-						<option value="357">Argentina</option><option value="369">Australia</option><option value="68">Austria</option><option value="358">Belgium</option><option value="130">Bermuda</option><option value="55">Brazil</option><option value="132">Canada</option><option value="359">Chile</option><option value="58">China</option><option value="60">Denmark</option><option value="65">Finland</option><option value="66">France</option><option value="69">Germany</option><option value="360">Greece</option><option value="71">Ireland</option><option value="361">Israel</option><option value="67">Italy</option><option value="57">Japan</option><option value="70">Netherlands</option><option value="362">New Zealand</option><option value="363">Norway</option><option value="364">Portugal</option><option value="436">Saudi Arabia</option><option value="62">Slovakia</option><option value="134">South Africa</option><option value="365">South Korea</option><option value="61">Spain</option><option value="366">Sweden</option><option value="367">Switzerland</option><option value="403">Tanzania</option><option value="64">Turkey</option><option value="368">United Arab Emirates</option><option value="63">United Kingdom</option><option selected="selected" value="73">United States</option></select>                       
-                    <select name="select-adults" id="select-adults">
-                    	<option>All Events</option>
-                        <option value="1">Foundation Events</option>
-                        <option value="2">Team Fox Events</option>
-                        <option value="2">PD Community Events</option>
-                        <!-- etc. -->
-                    </select>
-                </fieldset>
-				</div>
-				<!--
-				<p class="key"><img src="../../images/key-foundation.gif" width="9" height="14" border="0" alt="" /> Foundation &#160; <img src="../../images/key-team.gif" width="9" height="14" border="0" alt="" /> Team Fox &#160; <img src="../../images/key-community.gif" width="9" height="14" border="0" alt="" /> Parkinson's Community</p>
-				-->
-				<hr/>
-
-		<ul data-role="listview" class="eventFeed" data-icon="false">
-			<li>
-				<a data-transition="slide" href="http://www2.michaeljfox.org/site/TR?fr_id=1300&pg=personal&px=1001824">
-					<div class="eventItem">
-						<div class="calendarDate">
-							<div class="calendarIcon">
-							<!--	<img src="../images/event-date-bg-team.gif" /> -->
-								<div class="calendarIconText">
-									Mar<br/>
-									<span>12</span>
-								</div>
-							</div>
-						</div>
-						<div class="eventText">
-							<div class="eventTitle">
-								Delaware Pancakes for Parkinson's Disease
-							</div>
-							<div class="eventLocation">
-								Hamilton, NY
-							</div>
-						</div>
-					</div>
-				</a>
-			</li>
-
-			<li>
-				<a data-transition="slide" href="http://www2.michaeljfox.org/site/TR?fr_id=1300&pg=personal&px=1001824">
-					<div class="eventItem">
-						<div class="calendarDate">
-							<div class="calendarIcon">
-								<div class="calendarIconText">
-									Mar<br/>
-									<span>19</span>
-								</div>
-							</div>
-						</div>
-						<div class="eventText">						
-							<div class="eventTitle">
-								New York City Marathon
-							</div>
-							<div class="eventLocation">
-								New York, NY
-							</div>
-						</div>	
-					</div>
-				</a>
-			</li>
-			<li>
-				<a data-transition="slide" href="http://www2.michaeljfox.org/site/TR?fr_id=1300&pg=personal&px=1001824">
-					<div class="eventItem">
-						<div class="calendarDate">
-							<div class="calendarIcon">
-								<div class="calendarIconText">
-									Mar<br/>
-									<span>28</span>
-								</div>
-							</div>
-						</div>
-						<div class="eventText">
-							<div class="eventTitle">
-								Tips for Parkinson's
-							</div>
-							<div class="eventLocation">
-								Saratoga Springs, NY
-							</div>
-						</div>	
-					</div>
-				</a>
-			</li>			<li>
-				<a data-transition="slide" href="http://www2.michaeljfox.org/site/TR?fr_id=1300&pg=personal&px=1001824">
-					<div class="eventItem">
-						<div class="calendarDate">
-							<div class="calendarIcon">
-								<div class="calendarIconText">
-									Apr<br/>
-									<span>3</span>
-								</div>
-							</div>
-						</div>
-						<div class="eventText">
-							<div class="eventTitle">
-								WereGoingBack.com - 2015!
-							</div>
-							<div class="eventLocation">
-								New York, NY
-							</div>
-						</div>	
-					</div>
-				</a>
-			</li>
-		</ul>		
-
-	<script src="js/calendar.js">
-	</script>	
+				<h2>&#916; 9,043 ft</h2>
 			
+			  <div id="elevationGraph"></div>
+		
+			
+
+<script>
+	$("#mapTimeline").change(function(){
+	  $("#elevationGraph").html('');
+	  var tmpValue = $(this).val();
+		
+		drawChart(tmpValue == "year" ? 12 : 36);
+	})
+	
+	function add_commas( val, add_money_decimals, preserve_decimals )
+{
+  var v;
+
+  if ( preserve_decimals )
+  {
+    v = val.toString();
+  }
+  else
+  {
+    v = parseFloat( val ).toFixed(2);
+  }
+
+  var ps = v.split('.');
+
+  var whole = ps[0];
+  var sub   = add_money_decimals ? ( ps[1] ? '.' + ps[1] : '.00' ) : ( preserve_decimals && ps[1] ? '.' + ps[1] : '' );
+
+  var r = /(\d+)(\d{3})/;
+
+  while (r.test(whole))
+  {
+    whole = whole.replace(r, '$1' + ',' + '$2');
+  }
+  return whole + sub;
+}
+
+</script>
+
+
+<script>
+
+function drawChart(layers) {
+var n = 1, // number of layers
+    m = layers, // number of samples per layer
+    stack = d3.layout.stack(),
+    layers = stack(d3.range(n).map(function() { return bumpLayer(m, .1); })),
+    yGroupMax = d3.max(layers, function(layer) { return d3.max(layer, function(d) { return d.y; }); }),
+    yStackMax = d3.max(layers, function(layer) { return d3.max(layer, function(d) { return d.y0 + d.y; }); });
+
+    $("h2").html("&#916; " + add_commas(yGroupMax) + " ft");
+    
+var margin = {top: 50, right: 0, bottom: 20, left: 50},
+    width = 380 - margin.left - margin.right,
+    height = 350 - margin.top - margin.bottom;
+
+var x = d3.scale.ordinal()
+    .domain(d3.range(m))
+    .rangeRoundBands([0, width], .08);
+
+var y = d3.scale.linear()
+    .domain([0, yStackMax])
+    .range([height, 0]);
+
+    
+var color = d3.scale.linear()
+    .domain([0, n - 1])
+    .range(["#31A354", "#F7FCB9"]);
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .tickSize(0)
+    .tickPadding(6)
+    .orient("bottom");
+    
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left");
+
+var svg = d3.select("#elevationGraph").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var layer = svg.selectAll(".layer")
+    .data(layers)
+  .enter().append("g")
+    .attr("class", "layer")
+    .style("fill", function(d, i) { return color(i); });
+
+var rect = layer.selectAll("rect")
+    .data(function(d) { return d; })
+  .enter().append("rect")
+    .attr("x", function(d) { return x(d.x); })
+    .attr("y", height)
+    .attr("width", x.rangeBand())
+    .attr("height", 0);
+
+rect.transition()
+    .delay(function(d, i) { return i * 10; })
+    .attr("y", function(d) { return y(d.y0 + d.y); })
+    .attr("height", function(d) { return y(d.y0) - y(d.y0 + d.y); });
+
+svg.append("g")
+    .attr("class", "x axis")
+    .attr("transform", "translate(0," + height + ")")
+    .call(xAxis);
+    
+svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("class", "title")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .text("ft");
+
+d3.selectAll("input").on("change", change);
+}
+
+drawChart(12);
+
+// Inspired by Lee Byron's test data generator.
+function bumpLayer(n, o) {
+
+  function bump(a) {
+    var x = 1 / (.1 + Math.random()),
+        y = 2 * Math.random() - .5,
+        z = 10 / (.1 + Math.random());
+    for (var i = 0; i < n; i++) {
+      var w = (i / n - y) * z;
+      a[i] += ( x * Math.exp(-w * w) ) * 1000;
+    }
+  }
+
+  var a = [], i;
+  for (i = 0; i < n; ++i) a[i] = o + o * Math.random();
+  for (i = 0; i < 5; ++i) bump(a);
+  return a.map(function(d, i) { return {x: i, y: Math.max(0, d)}; });
+}
+
+</script>
 
 <?php include('include/bottom.php'); ?>
