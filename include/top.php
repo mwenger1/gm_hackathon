@@ -121,7 +121,7 @@ fastButtons.replace();
 					<ul>
 						<li><a href="index.php" class="contentLink">Dashboard</a></li>
 						<li><a href="states.php" class="contentLink">States</a></li>
-						<li><a href="elevation.php" class="contentLink">Elevation</a></li>
+						<li><a href="elevation.php" class="contentLink" rel=external>Elevation</a></li>
 						<li><a href="miles.php" class="contentLink">Miles</a></li>
 						<li><a href="hotspots.php" class="contentLink">Hot Spots</a></li>
 					</ul>
