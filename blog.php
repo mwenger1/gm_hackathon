@@ -23,6 +23,7 @@
 
 					<img class="thisyear" style="width:80%;" src="images/leaderboard2.png" />
 					<img class="alltime" style="width:80%; display:none;" src="images/leaderboard.png" />
+					<button class="inset">Load More</button>
 
 				</div>
 
